@@ -1,0 +1,4 @@
+interface:
+  display_name: "Study Literature Notes"
+  short_description: "审计学习文件，抽取全部章节/分块，并生成有证据链的中文 Markdown 图文笔记。"
+  default_prompt: "Use $study-literature-notes to audit this textbook or paper, extract all planned chapters or chunks, then create evidence-backed illustrated Markdown study notes."
