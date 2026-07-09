@@ -47,11 +47,11 @@ flowchart TD
 ### 公式：名称
 
 - 来源：p.
-- 原式：
+- 原式：使用 Markdown 数学公式，不要用 fenced `text` 代码块。
 
-```text
+$$
 ...
-```
+$$
 
 - 符号：
 
@@ -65,6 +65,7 @@ flowchart TD
   2. ...
   3. ...
 - 补充推导：若有不是原文直接给出的步骤，在这里明确标注。
+- 公式显示规则：行内公式用 `$...$`，独立公式用 `$$...$$`；只有不可还原的 OCR 原片段、伪代码或 ASCII 图才使用 fenced `text`。
 - 直观含义：...
 
 ## 5. 重要图表线稿
@@ -111,6 +112,7 @@ flowchart TD
 ## Rules
 
 - Keep source anchors close to claims, formulas, and visuals.
+- Write formulas as Markdown math with `$...$` or `$$...$$`; do not wrap formulas in fenced `text` code blocks unless preserving an unreliable raw OCR fragment.
 - Use `推断` for interpretations not directly stated by the source.
 - Use `补充推导` for derivation steps added by the model.
 - For Mermaid diagrams, include an ASCII fallback when the diagram represents an important source visual.

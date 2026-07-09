@@ -101,12 +101,14 @@ Be strict about source traceability:
 
 For important formulas, provide:
 
-- original formula
+- original formula written as Markdown math, using inline `$...$` or display `$$...$$`
 - symbol table
 - assumptions and applicable conditions
 - key derivation steps
 - final meaning in plain language
 - source anchor
+
+Do not put formulas in fenced `text` code blocks. Use fenced text only for raw OCR fragments that cannot be reliably converted, pseudocode, or ASCII sketches. When PDF extraction breaks a formula, rewrite the clean study version in Markdown math and mark any reconstruction as `补充推导` or `推断`.
 
 Use key-step derivations by default. Do not expand into a long proof unless the user asks.
 
